@@ -38,12 +38,15 @@ install_manifest.txt
 # C, C++
 *.o
 *.lo
+*~
 
 # project generated files
 autom4te.cache/
 *.m4
 client/.deps/
+client/.libs/
 client/Makefile.in
+common/.deps/
 common/libfko_util.a
 common/Makefile.in
 config.h
@@ -69,6 +72,7 @@ server/fwknopd
 server/fwknopd.8
 server/Makefile.in
 stamp-h1
+win32/.deps/
 
 # For anyone running on a Mac
 .DS_Store
@@ -82,3 +86,6 @@ android/project/jni/libfwknop/*.c
 # Erlang
 erlang/_build
 erlang/rebar.lock
+
+client/fwknop
+client/fwknop.8
